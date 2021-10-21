@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -44,8 +45,7 @@
             text-align: center;
             margin-top: 15px;
         }
-        
-        .title-card {
+        /* .title-card {
             width: 662px;
             height: 60px;
             position: absolute;
@@ -56,7 +56,7 @@
             background-color: #d1d1d1;
             border-radius: 10px;
             margin-left: 12px;
-        }
+        } */
     </style>
 
 </head>
@@ -66,16 +66,16 @@
     <div style="width: 100%;">
         <div class="d-flex justify-content-center">
             <div class="subBody mt-5 mb-3">
-                <div class="title-card">
-                    <h4 class="title text-dark">QA CHECK LIST</h4>
-                </div>
-                <div class="container" style="    margin-top: 45px;">
-                    <table style="box-shadow: 0px 55px 4px 4px #494545;" class="table table-hover table-borderless table-responsive mt-5 mb-0 bg-white ">
-                        <thead class="border-bottom" style="width: 100%;">
+                <!-- <div class="title-card">
+                    <h4 class="title text-dark">QA CHECK LIST</h4>f08e8e
+                </div> -->
+                <div class="container" style="    margin-top: 10px;">
+                    <table style="box-shadow: 0px 60px 4px 4px #494545;" class="table table-hover table-borderless table-responsive bg-white ">
+                        <thead class="border-bottom table-dark" style="width: 100%;">
                             <tr class="">
                                 <th class=""></th>
-                                <th class="text-center"></th>
-                                <th class="text-center"><span></span></th>
+                                <th class="text-center">QA CHECK LIST</th>
+                                <th class="text-center"><span>VALIDATION STATUS</span></th>
                             </tr>
                         </thead>
                         <tbody>
@@ -97,104 +97,230 @@
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is changes merged with latest collaboration branch ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_changes_merged_with_latest_collaboration_branch + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Other language Testing done ? With Input validation / Product settings.</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Other_language_Testing_done_With_Input_validation_Product_settings + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px; color: chocolate;font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is this changes developed by respective module owner team ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_this_changes_developed_by_respective_module_team + "</td>
+                                <td style="padding: 10px 10px 10px 15px; color: chocolate;font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is GApps domain tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_GApps_domain_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is other module review approved for the changes ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_other_module_review_approved_for_the_changes + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Office 365 domain tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Office_365_domain_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is PM scope document provided for the changes ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_other_module_review_approved_for_the_changes + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Microsoft Office iframe domain tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Microsoft_Office_iframe_domain_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Have you informed developer not to kill or to change build during testing without intimation ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Have_you_informed_developer_not_to_kill_or_to_change_build_during_testing_without_our_intimation + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Bugtracker service tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Bugtracker_service_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Have you confirmed with developer that there should not be further development takes place. ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Have_you_confirmed_with_developer_that_there_should_not_be_further_development_takes_place + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Chrome Extension tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Chrome_Extension_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Do you find very basic issues while starting testing ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Do_you_find_very_basic_issues_while_starting_testing + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Security vector input validated tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Security_vector_input_validated_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is group chat created with respective members ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_group_chat_created_with_respective_members + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is CRM + service tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_CRM_plan_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is UI attribute added for WEB automation ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_UI_attribute_added_for_WEB_automation + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Zoho One service tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Zoho_One_service_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is necessary API provided in document for automation ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_necessary_API_provided_in_document_for_automation + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is VCRM iframe service tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_VCRM_iframe_service_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is necessary dot dos provided in document for Jmeter automation ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_necessary_dot_dos_provided_in_document_for_automation + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Zoho CRM iframe tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Zoho_CRM_iframe_tested + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Have you run all automation's before proceeding testing ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Have_you_run_all_automation_s_before_proceeding_testing + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is changes tested in REST API ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_changes_tested_in_REST_API + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Have you run all automation's before proceeding testing ?</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Have_you_run_all_automation_s_before_proceeding_testing + "</td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is it tested in all possible OS / Browsers / Screens ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_it_tested_in_all_possible_OS_Browsers_Screens + "</td>
                             </tr>
                             <tr>
                                 <td>
                                     <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
                                 </td>
-                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Before Automation Report (share report with comma separated)</td>
-                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Before_Automation_Report + " </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is it tested based on all pricing plans ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_it_tested_based_on_all_pricing_Plans + " </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is it tested based on unlimited users pricing plan (Old pricing portal) ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_it_tested_based_on_all_default_and_customised_roles + " </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is integration (Zoho apps / Other apps) tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_integration_Zoho_apps_Other_apps_tested + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Any migration required for this entry is it done in IDC before merge ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Any_migration_required_for_this_entry_is_it_done_before_merge + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is mail alias cases tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_Mail_alias_cases_tested + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is RAP Cases tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_RAP_Cases_tested + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is all User Experience (UX) mandatory scenarios tested ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_all_User_Experience_UX_mandatory_scenarios_tested + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is all review's approved by mentors before merge ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_all_review_s_approved_by_mentors_before_merge + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is it tested in AU domain ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_tested_in_other_DC_s_in_eu_au + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is it tested in EU domain ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_tested_in_EU_domain + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is it tested in IN domain ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_it_tested_in_IN_domain + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is it tested in CN domain ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Is_it_tested_in_CN_domain + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Is Automation triggered and verified for - Jmeter / Selenium / VT / Web ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Automation_triggered_Jmeter_Selenium + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">WEB Automation report</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Automation_report_links + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">API Automation report</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.API_Automation_report + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">J meter automation report</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.J_meter_automation_report + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Use case wiki link</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Use_case_wiki_link + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Total Number fo bugs filed ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Total_Number_fo_bugs_filed + "</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="https://toppng.com/uploads/preview/checkbox-check-tick-green-okay-checked-selected-green-tick-in-a-box-11562917034txosxwdbjs.png" alt="" style="width: 20px;">
+                                </td>
+                                <td style="padding: 10px 10px 10px 15px;color: chocolate; font-size: 14px;max-width: 300px;min-width: 300px; font-weight: 600;">Total Number of bugs fixed ?</td>
+                                <td style="padding: 10px 10px 10px 15px; font-size: 12px;max-width: 300px;min-width: 300px;white-space: normal;word-break: break-all;">" + input.Total_Number_of_bugs_fixed + "</td>
                             </tr>
                         </tbody>
                     </table>
                     <div class="pencil mb-3 mt-0">
-                        <img src="https://www.vippng.com/png/detail/438-4387565_pencil-clipart-vertical.png" alt="" style="width: 661px; height: 55px;">
+                        <img src="https://www.vippng.com/png/detail/438-4387565_pencil-clipart-vertical.png" alt="" style="width: 661px; margin-top: -16px; height: 55px;">
                     </div>
                 </div>
             </div>
